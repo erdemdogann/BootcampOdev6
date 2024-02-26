@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/anaSayfaFragment"
+        android:icon="@drawable/ui_star"
+        android:title="AnaSayfa" />
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_menu"
+        android:title="Menü" />
+    <item
+        android:id="@+id/card"
+        android:icon="@drawable/ic_card"
+        android:title="Starbucks\nCard" />
+    <item
+        android:id="@+id/gift"
+        android:icon="@drawable/ic_gift"
+        android:title="Gift" />
+    <item
+        android:id="@+id/magaza"
+        android:icon="@drawable/ic_shop"
+        android:title="Mağazalar" />
+
+</menu>
