@@ -15,7 +15,7 @@
         android:fontFamily="@font/intermedium"
         android:gravity="center|start"
         android:minHeight="?attr/actionBarSize"
-        android:text="İyi günler Erdem"
+        android:text="İyi geceler Erdem"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -93,7 +93,6 @@
         android:fontFamily="@font/intermedium"
         android:text="Para Yükle"
         android:textStyle="bold"
-
         android:textColor="@color/black"
         android:textSize="12dp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
@@ -118,6 +117,7 @@
         android:layout_marginStart="10dp"
         android:src="@drawable/moon"
         android:rotation="25"
+        app:tint="#FFC107"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintStart_toEndOf="@+id/toolbar"
         app:layout_constraintTop_toTopOf="@+id/toolbar" />
