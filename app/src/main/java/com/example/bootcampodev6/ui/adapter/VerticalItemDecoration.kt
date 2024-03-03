@@ -11,7 +11,8 @@ class VerticalItemDecoration(private val verticalSpace : Int) : RecyclerView.Ite
         parent: RecyclerView,
         state: RecyclerView.State
     ) {
-        outRect.top = verticalSpace
+        if (parent.getChildAdapterPosition(view) != 1){
+            outRect.top = verticalSpace
+        }
     }
-
 }

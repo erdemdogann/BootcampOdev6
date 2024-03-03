@@ -13,3 +13,9 @@ Iapp/src/main/java/com/example/bootcampodev6/ui/adapter/KampanyaAdapter.kt,d\9\
 Papp/src/main/java/com/example/bootcampodev6/ui/adapter/VerticalItemDecoration.kt,e\4\e4fb76939c2b7a0de9168499945e737a068d59d9
 k
 ;app/src/main/java/com/example/bootcampodev6/MainActivity.kt,d\e\dece207738db6e94d29d6f1b68b2f0eba8cb9f7b
+v
+Fapp/src/main/java/com/example/bootcampodev6/ui/adapter/KahveAdapter.kt,5\e\5e87afa5cd4644dcebe25504f16192bc3a119543
+p
+@app/src/main/java/com/example/bootcampodev6/data/entity/Kahve.kt,b\5\b5c2e759f309bb5acd13d71058298bb33f073dc9
+z
+Japp/src/main/java/com/example/bootcampodev6/ui/adapter/KahveListAdapter.kt,c\5\c5b568e81528188b98ab9376a20c33d2612f5c75

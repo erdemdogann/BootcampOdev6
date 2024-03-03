@@ -6,9 +6,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.ConcatAdapter
 import com.example.bootcampodev6.R
+import com.example.bootcampodev6.data.entity.Kahve
 import com.example.bootcampodev6.data.entity.Kampanya
 import com.example.bootcampodev6.databinding.FragmentMainBinding
+import com.example.bootcampodev6.ui.adapter.KahveAdapter
 import com.example.bootcampodev6.ui.adapter.KampanyaAdapter
 import com.example.bootcampodev6.ui.adapter.VerticalItemDecoration
 
@@ -23,6 +26,10 @@ class MainFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         binding = FragmentMainBinding.inflate(inflater, container, false)
+
+        val kahve = listOf<Kahve>(
+            Kahve(R.drawable.image_card)
+        )
 
         val kampanya = listOf<Kampanya>(
             Kampanya(
@@ -55,7 +62,7 @@ class MainFragment : Fragment() {
             )
         )
 
-        binding.recyclerView.adapter = KampanyaAdapter(kampanya)
+        binding.recyclerView.adapter = ConcatAdapter(KahveAdapter(kahve),KampanyaAdapter(kampanya))
 
 
         binding.recyclerView.addItemDecoration(VerticalItemDecoration(12.dp))
