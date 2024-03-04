@@ -3,5 +3,6 @@
     <style name="BottomNavigationStyle">
         <item name="android:lines">2</item>
         <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/interregular</item>
     </style>
 </resources>
